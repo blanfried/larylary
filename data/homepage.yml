@@ -2,9 +2,9 @@
 character:
   enable : true
   bg_image: "images/hero/hero-bg-2.jpg"
-  subtitle : "Photography & Mixology"
-  title : "Spirits<br>in Focus"
-  content : "Crafting Signature Cocktails and Dynamic Media to Elevate Spirit Brands"
+  subtitle : ""
+  title : "A Very<br> Lary Time"
+  content : "lary lary lary lary lary lary lary lary lary lary lary lary lary lary lary"
   button:
     enable : false
     label : "Our Works"
