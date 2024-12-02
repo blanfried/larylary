@@ -1,0 +1,50 @@
+#########################3 history ############################
+history:
+  enable : true
+  image: "images/history-image.png"
+  subtitle : "Mixology"
+  title : "Something Witty"
+  content : "Nick's Qualification"
+
+################################ Team ###########################
+team:
+  enable : true
+  subtitle : "Something"
+  title : "Meet the Duo"
+  team_member:
+    # team member loop
+    - name : "Amy Van Vlear"
+      image : "images/history-image.png"
+      # image_bg : "images/history-image.png"
+      designation : "Photographer"
+      
+    # team member loop
+    - name : "Nick Stary"
+      image : "images/history-image.png"
+      # image_bg : "images/history-image.png"
+      designation : "Mixologist"
+      
+
+############################### philosophy ###########################
+philosophy:
+  enable : true
+  subtitle : "Photography"
+  title : "Something Witty"
+  image : "images/philosophy-image.jpg"
+  content : "Amy's qualifications"
+
+
+############################ Clients ################################
+clients:
+  enable : false
+  subtitle : "Our Clients"
+  title : "They Trust Us"
+  clients_logo:
+    - images/clients/client-logo-01.jpg
+    - images/clients/client-logo-02.jpg
+    - images/clients/client-logo-03.jpg
+    - images/clients/client-logo-04.jpg
+    - images/clients/client-logo-05.jpg
+    - images/clients/client-logo-06.jpg
+    - images/clients/client-logo-07.jpg
+    - images/clients/client-logo-08.jpg

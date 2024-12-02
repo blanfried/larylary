@@ -1,0 +1,41 @@
+<header class="navigation">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-12">
+        <nav class="navbar fixed-top navbar-expand-lg">
+          <a class="navbar-brand anchor logoAnchor" href="{{ .Site.BaseURL }}">
+            <img src="{{ .Site.Params.logo | absURL }}" class="img-fluid logo" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav">
+            <span class="navbar-toggler-icon">
+              <img src="{{ `images/hamburger-icon.png` | absURL }}" class="img-fluid" alt="menu">
+            </span>
+          </button>
+          <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="navbar-nav ml-auto">
+              {{ range .Site.Menus.main }}
+              {{ if .HasChildren }}
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">
+                  {{ .Name }}
+                </a>
+                <div class="dropdown-menu mb-3">
+                  {{ range .Children }}
+                  <a class="dropdown-item" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+                  {{ end }}
+                </div>
+              </li>
+              {{ else }}
+              <li class="nav-item">
+                <a class="nav-link" href="{{ .URL | relLangURL }}">{{ .Name }}</a></a>
+              </li>
+              {{ end }}
+              {{ end }}
+              </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>

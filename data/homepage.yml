@@ -1,0 +1,112 @@
+######################## Character ############################
+character:
+  enable : true
+  bg_image: "images/hero/hero-bg-2.jpg"
+  subtitle : "Photography & Mixology"
+  title : "Spirits<br>in Focus"
+  content : "Crafting Signature Cocktails and Dynamic Media to Elevate Spirit Brands"
+  button:
+    enable : false
+    label : "Our Works"
+    link : "works"
+
+################### Problem #################################
+problem:
+  enable : true
+  bg_image : "images/shape-big.png"
+  subtitle : ""
+  title : "Need Stunning Content?<br><br>"
+  title1 : "Need Drinks That Live Up To It?"
+  content : "We Can Help<br><br>"
+  icon : "fa-arrow-down"
+
+######################## Guide ############################
+guide:
+  enable : true
+  bg_image: "images/hero/hero-bg-3.jpg"
+  subtitle : ""
+  title : "High end Photography<br>Professional Mixology"
+  content : "this is her photo and those are his hands, oulala"
+  content1 : ""
+  button:
+    enable : true
+    label : "Learn More"
+    link : "about"
+
+################### Plan #################################
+plan:
+  enable : true
+  bg_image : "images/shape-big.png"
+  subtitle : "How We Do It"
+  title : "From Content to Recipes"
+  plan_item:
+    # service item loop
+    - name : "Discover & Define"
+      icon : "fa-1"
+      content : "We start by understanding your content needs, whether it’s vibrant videos, bottle shots, cocktail close-ups, or lifestyle images. Together, we explore what will make the biggest impact for your brand."
+
+    # service item loop
+    - name : "Budget & Blueprint"
+      icon : "fa-2"
+      content : "Next, we’ll align on budget and map out a tailored shoot plan that captures your vision while staying on target."
+      
+    # service item loop
+    - name : "Craft & Capture"
+      icon : "fa-3"
+      content : "With cocktails perfected and shots planned, we bring your vision to life—from carefully crafted drinks to eye-catching photos. Finally, we deliver stunning visuals ready to engage and inspire."
+
+
+############################# gallery ############################
+gallery:
+  enable : true
+  subtitle : "Gallery"
+  title : "Some of Our Favorite Shots"
+
+  # portfolio item comes from `content/gallery/` folder
+
+################# call to action ##################################3
+call_to_action:
+  enable : true
+  title : "Ready to Elevate Your Cocktail Brand?"
+  content : "Bring your vision to life with photos and drinks that captivate. Let’s create content that turns heads and cocktails that keep them coming back."
+  button:
+    enable : true
+    label : "Let's Chat"
+    link : "contact"
+
+################# contact ##################################3
+contact:
+  enable : true
+  title : "Have Any Questions?"
+  # content : "Bring your vision to life with photos and drinks that captivate. Let’s create content that turns heads and cocktails that keep them coming back."
+  # button:
+  #   enable : true
+  #   label : "Let's Chat"
+  #   link : "contact"
+
+
+############################ testimonial ###########################
+testimonial:
+  enable : true
+  subtitle : "Testimonials"
+  title : "LoveQuote <br> From Clients"
+  testimonial_item:
+    # testimonial item loop
+    - name : "Good Win"
+      image : "images/testimonial/quote-person.png"
+      designation : "CEO, Align org"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      
+    # testimonial item loop
+    - name : "Good Win"
+      image : "images/testimonial/quote-person.png"
+      designation : "CEO, Align org"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      
+    # testimonial item loop
+    - name : "Good Win"
+      image : "images/testimonial/quote-person.png"
+      designation : "CEO, Align org"
+      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+
