@@ -1,0 +1,183 @@
+################################ Title ###########################
+title:
+  enable : true
+  subtitle : ""
+  title : "Bartending Packages & Menu"
+      
+
+############################### philosophy ###########################
+small:
+  enable : true
+  subtitle : "Small Event - $3,500"
+  title : "50-Guests"
+  image : "images/bartending/bartending2.jpg"
+  content : "
+•	2 bartenders (including 1 lead bartender)
+<br/>
+•	Full bar setup and mobile bar rental
+<br/>
+•	150 cocktails (3 cocktails per guest) from our cocktail menu
+<br/>
+•	Premium Tossware 12oz rocks glasses for every drink
+<br/>
+•	Penny Pound craft ice
+<br/>
+•	Garnishes and syrups prepared fresh for each cocktail
+<br/>
+•	Soda, soda water, and water bottles for guests (non-alcoholic options)
+<br/>
+•	8 hours of service, including set-up, event time, and teardown
+<br/>
+•	Day-of insurance coverage
+<br/>
+•	Transportation and delivery of bar materials
+"
+
+medium:
+  enable : true
+  subtitle : "Medium Event - $4,500"
+  title : "75-Guests"
+  image : "images/bartending/bartending5.jpg"
+  content : "
+•	3 bartenders (including 1 lead bartender)
+<br/>
+•	Full bar setup and mobile bar rental
+<br/>
+•	225 cocktails (3 cocktails per guest) from our cocktail menu
+<br/>
+•	Premium Tossware 12oz rocks glasses for every drink
+<br/>
+•	Penny Pound craft ice
+<br/>
+•	Garnishes and syrups prepared fresh for each cocktail
+<br/>
+•	Soda, soda water, and water bottles for guests (non-alcoholic options)
+<br/>
+•	8 hours of service, including set-up, event time, and teardown
+<br/>
+•	Day-of insurance coverage
+<br/>
+•	Transportation and delivery of bar materials
+"
+
+large:
+  enable : true
+  subtitle : "Large Event - $5,500"
+  title : "100-Guests"
+  image : "images/bartending/bartending11.jpg"
+  content : "
+•	4 bartenders (including 1 lead bartender)
+<br/>
+•	Full bar setup and mobile bar rental
+<br/>
+•	300 cocktails (3 cocktails per guest) from our cocktail menu
+<br/>
+•	Premium Tossware 12oz rocks glasses for every drink
+<br/>
+•	Penny Pound craft ice
+<br/>
+•	Garnishes and syrups prepared fresh for each cocktail
+<br/>
+•	Soda, soda water, and water bottles for guests (non-alcoholic options)
+<br/>
+•	8 hours of service, including set-up, event time, and teardown
+<br/>
+•	Day-of insurance coverage
+<br/>
+•	Transportation and delivery of bar materials
+"
+
+
+############################ Menu ################################
+# title1:
+#   enable : true
+#   subtitle : "The Favorites"
+#   title : "Our Menu"
+
+menu:
+  enable : true
+  subtitle : ""
+  title : ""
+  image : "images/bartending/menu.svg"
+  content : ""
+
+
+################### Plan #################################
+plan:
+  enable : true
+  bg_image : "images/shape-big.png"
+  subtitle : "What Sets Us Apart"
+  title : "Our Pricing Reflects Quality of Service"
+  plan_item:
+    # service item loop
+    - name : "Custom Bar Setup"
+      # icon : "fa-1"
+      content : "Each event includes a custom mobile bar setup that ensures cocktails are served with precision and care."
+
+    # service item loop
+    - name : "Craft Cocktails<br/>Made Fresh On-Site"
+      # icon : "fa-2"
+      content : "We mix every cocktail fresh at the event using only the highest-quality ingredients, syrups, and garnishes."
+      
+    # service item loop
+    - name : "Experienced Bartenders"
+      # icon : "fa-3"
+      content : "Our bartenders are highly trained, efficient, and knowledgeable about craft cocktails, ensuring a premium guest experience."
+
+    # service item loop
+    - name : "No Wasted Alcohol"
+      # icon : "fa-4"
+      content : "Because you purchase the alcohol directly, any unused bottles are yours to keep, reducing waste and increasing value."
+
+    # service item loop
+    - name : "Luxury Details"
+      # icon : "fa-5"
+      content : "We prioritize premium presentation with crystal-clear ice, fresh garnishes, and elegant, shatter-proof Tossware glasses."
+
+
+################# call to action ##################################3
+call_to_action:
+  enable : true
+  title : "Ready to Elevate Your Cocktail Brand?"
+  content : "Bring your vision to life with photos and drinks that captivate. Let’s create content that turns heads and cocktails that keep them coming back."
+  button:
+    enable : true
+    label : "Let's Chat"
+    link : "contact"
+
+
+################### About Pricing #################################
+aboutPricing:
+  enable : true
+  subtitle : ""
+  title : "What to Know About Our Pricing"
+  content : "
+•	Cocktail Count: We calculate an average of 3 cocktails per guest to ensure there’s enough for everyone.
+<br/>
+<br/>
+•	Custom Cocktail Options: While we do not offer a full bar option, we are happy to work with you to create a customized cocktail menu. This approach allows us to maintain the highest quality and consistency while minimizing wait times for your guests.
+<br/>
+<br/>
+•	Select up to 3 cocktails from our Menu: We suggest no more than 3 craft cocktails to serve at your event. This limits guest wait time and reduces the likelihood that supplies for any single cocktail may run out during service. 
+<br/>
+<br/>
+•	Guest-Supplied Alcohol: We do not provide alcohol directly, but we will facilitate the process by building a custom shopping list for your event. Alcohol will be purchased directly by you, and we’ll pick it up and ensure everything is ready before the event begins.
+<br/>
+<br/>
+•	Bar Setup: Our pricing includes the full bar setup and transport of all essential materials. This includes ice, glasses, garnishes, syrups, and bar tools.
+<br/>
+<br/>
+•	Labor: Each event includes 8 hours of service per bartender to cover set-up, the event, and tear-down. For a 50-guest event, you’ll have 2 bartenders. For 75 guests, it’s 3 bartenders, and for 100 guests, you’ll have 4 bartenders.
+<br/>
+<br/>
+•	Premium Service: We use premium Penny Pound ice and Tossware 12oz rocks glasses to ensure each cocktail is served with the same level of quality you’d expect at a craft cocktail bar.
+<br/>
+<br/>
+•	Non-Alcoholic Options: We provide soda, soda water, and bottled water for non-drinking guests. This is included in the total cost.
+<br/>
+<br/>
+•	Day-of Insurance: Every event is fully insured to give you peace of mind.
+<br/>
+<br/>
+•	Transparent Pricing: We provide you with a clear, transparent cost breakdown so you know exactly what you’re paying for, with no hidden fees.
+"

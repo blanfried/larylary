@@ -1,0 +1,55 @@
+#########################3 history ############################
+history:
+  enable : true
+  image: "images/history-image.png"
+  subtitle : "Mixology"
+  title : "Something Witty"
+  content : "Nick's Qualification"
+
+################################ Team ###########################
+title:
+  enable : true
+  subtitle : ""
+  title : "Our Content Creation Services"
+      
+
+############################### philosophy ###########################
+studio:
+  enable : true
+  subtitle : "curated visuals crafted with care"
+  title : "In Studio <br/> Lifestyle Content"
+  image : "images/content/content1.jpg"
+  content : "Creatively styled and thoughtfully produced photo and video content for your brand’s website and social media."
+
+recipe:
+  enable : true
+  subtitle : "original flavors, stunning presentation"
+  title : "Recipe Development <br/> and Cocktail Creation"
+  image : "images/content/content3.jpg"
+  content : "Cocktails that are created specifically to highlight / compliment your spirits, and elevate your bar program."
+
+location:
+  enable : true
+  subtitle : "authentic storytelling, where it happens"
+  title : "On Location Shoots"
+  image : "images/content/content10.jpg"
+  content : "In-action shots and portraits, venue details, on-site bar program photos- to tell more of your story and show the heart behind your brand."
+
+retainers:
+  enable : true
+  subtitle : "consistent creativity, month after month"
+  title : "Content Retainers"
+  image : "images/content/content7.jpg"
+  content : "On-going, regular content for your social media audiences and product launches."
+
+
+
+################# call to action ##################################3
+call_to_action:
+  enable : true
+  title : "Elevate Your Brand – Starting at $750"
+  content : "Inquire now for a custom quote!"
+  button:
+    enable : true
+    label : "Let’s Get to Work"
+    link : "contact"

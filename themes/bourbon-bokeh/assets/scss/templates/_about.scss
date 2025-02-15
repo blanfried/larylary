@@ -1,0 +1,91 @@
+.history{
+    position: relative;
+    .shape-big{
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+    &-content{
+        .section-title{
+            margin-bottom: 25px;
+        }
+        p{
+            margin-bottom: 30px;
+            line-height: 28px;
+        }
+    }
+}
+
+.bartending-title {
+    font-size: 60px;
+    max-width: 100%;
+    @include mobile {
+        font-size: 40px;
+        word-wrap: break-word; /* Forces wrapping for long words */
+        overflow-wrap: break-word; /* Modern property for word wrapping */
+    }
+}
+
+.team{
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    text-align: center;
+    &-member{
+        @include desktop {
+            margin-bottom: 30px;
+        }
+        &-image{
+            background-size: cover;
+            background-position: right center;
+            padding: 20px;
+            img{
+                width: 100%;
+                border: 15px solid $white;
+            }
+        }
+        &-content{
+            margin-top: 30px;
+            h6{
+                text-transform: uppercase;
+                margin-bottom: 5px;
+            }
+            span{
+                font-size: 14px;
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+.philosophy{
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 80px;
+    text-align: center;
+    &-content{
+        .section-title{
+            margin-bottom: 25px;
+        }
+        p{
+            line-height: 25px;
+        }
+    }
+}
+
+.client{
+    &-logo{
+        margin-bottom: 20px;
+    }
+}
+
+.philosophy-image img {
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image horizontally */
+    display: block; /* Ensure proper centering */
+
+    @include mobile {
+        width: 100%;
+    }
+}

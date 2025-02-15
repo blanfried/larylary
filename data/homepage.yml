@@ -2,9 +2,9 @@
 character:
   enable : true
   bg_image: "images/hero/hero-bg-2.jpg"
-  subtitle : ""
-  title : "A Very<br> Lary Time"
-  content : "lary lary lary lary lary lary lary lary lary lary lary lary lary lary lary"
+  subtitle : "Photography & Mixology"
+  title : "Spirits<br>in Focus"
+  content : "Crafting Signature Cocktails and Dynamic Media to Elevate Spirit Brands"
   button:
     enable : false
     label : "Our Works"
@@ -64,7 +64,7 @@ gallery:
 
   # portfolio item comes from `content/gallery/` folder
 
-################# call to action ##################################3
+################# call to action ##################################
 call_to_action:
   enable : true
   title : "Ready to Elevate Your Cocktail Brand?"
@@ -74,7 +74,7 @@ call_to_action:
     label : "Let's Chat"
     link : "contact"
 
-################# contact ##################################3
+################# contact ##################################
 contact:
   enable : true
   title : "Have Any Questions?"

@@ -1,0 +1,212 @@
+.cta{
+    background: url(../images/hero/hero-bg-4.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    &::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba($color: $footer-bg, $alpha: .6);
+    }
+    @include mobile {
+    background: url(../images/hero/hero-bg-4.jpg);
+    background-size: cover;
+    background-attachment: scroll; // Use `scroll` for mobile to improve performance
+    background-position: center center;
+    position: relative;
+    background-attachment:local;
+    padding-top: 19em;
+    padding-bottom: 19em;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba($color: $footer-bg, $alpha: .6); // Adjust opacity as needed
+        z-index: 0;
+        pointer-events: none;
+        background-attachment: fixed; // Use `fixed` only on larger screens if needed
+    }}
+    .content{
+        h2{
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        p{
+            width: 70%;
+        }
+    }
+}
+
+.ctaContent{
+    background: url(../images/hero/hero-bg-4.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    &::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba($color: $footer-bg, $alpha: .6);
+    }
+    @include mobile {
+    background: url(../images/hero/hero-bg-4.jpg);
+    background-size: cover;
+    background-attachment: scroll; // Use `scroll` for mobile to improve performance
+    background-position: center center;
+    position: relative;
+    background-attachment:local;
+    padding-top: 19em;
+    padding-bottom: 19em;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba($color: $footer-bg, $alpha: .6); // Adjust opacity as needed
+        z-index: 0;
+        pointer-events: none;
+        background-attachment: fixed; // Use `fixed` only on larger screens if needed
+    }}
+    .content{
+        h2{
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        p{
+            width: 70%;
+        }
+    }
+}
+
+.ctaBartending{
+    background: url(../images/hero/hero-bg-4.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    &::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba($color: $footer-bg, $alpha: .6);
+    }
+    @include mobile {
+    background: url(../images/hero/hero-bg-4.jpg);
+    background-size: cover;
+    background-attachment: scroll; // Use `scroll` for mobile to improve performance
+    background-position: center center;
+    position: relative;
+    background-attachment:local;
+    padding-top: 19em;
+    padding-bottom: 19em;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba($color: $footer-bg, $alpha: .6); // Adjust opacity as needed
+        z-index: 0;
+        pointer-events: none;
+        background-attachment: fixed; // Use `fixed` only on larger screens if needed
+    }}
+    .content{
+        h2{
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+        }
+        p{
+            width: 70%;
+        }
+    }
+}
+
+.ctaGuide{
+    background: url(../images/hero/hero-bg-3.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    background-attachment: fixed;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    &::before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba($color: $footer-bg, $alpha: .6);
+    }
+    @include mobile {
+    background: url(../images/hero/hero-bg-3.jpg);
+    background-size: cover;
+    background-attachment: scroll; // Use `scroll` for mobile to improve performance
+    background-position: center center;
+    position: relative;
+    background-attachment:local;
+    padding-top: 19em;
+    padding-bottom: 19em;
+
+    &::before {
+        position: absolute;
+        top: 0;
+        left: 0;
+        content: '';
+        width: 100%;
+        height: 100%;
+        background: rgba($color: $footer-bg, $alpha: .6); // Adjust opacity as needed
+        z-index: 0;
+        pointer-events: none;
+        background-attachment: fixed; // Use `fixed` only on larger screens if needed
+    }}
+    .content{
+        h6{
+            margin-bottom: 7px;
+            font-size: 23px;
+        }
+        h2{
+            margin-bottom: 30px;
+            font-size: 80px;
+        }
+        p{
+            width: 100%;
+            font-size: 21px;
+            margin-top: 20px;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+        .smallText {
+            font-size: 12px;
+            margin-top: 1px;
+        }
+    }
+}
